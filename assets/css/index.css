@@ -1,0 +1,333 @@
+.header {
+    background-color: black;
+    color: white;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-content {
+    /* background-image: url("../images/header-image.png"); */
+    position: relative;
+    font-family: sans-serif;
+    padding-top: 3vh;
+}
+
+.main-title {
+    position: absolute;
+    top: -4vh;
+    left: 3vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: -3px;
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+.header-image {
+    width:100%;
+}
+
+.slogan {
+    font-size: 1.5vw;
+    font-weight: normal;
+    letter-spacing: 0.5vh;
+    padding-top: 20px;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 6vh;
+    padding-top: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-top > div {
+    width: 25%;
+}
+
+.header-top > div > a {
+   text-decoration: none !important;
+   color: inherit;
+   font-size: 1vw;
+}
+
+.logo {
+    position: relative;
+    cursor: pointer;
+    padding-right: 5vh;
+}
+
+.logo > img {
+    max-width: 100%;
+}
+
+.join-now {
+    text-align: right;
+}
+
+button {  
+    background-color: white;
+    border: solid;
+    width: 35%;
+    font-size: 1vw;
+    letter-spacing: 0.3vh;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.header-bottom {
+    display: flex;
+    flex-direction: row;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5vh;
+}
+
+.header-bottom > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-bottom-upper {
+    font-size: 1.6vw;
+    font-weight: 200;
+    letter-spacing: 0.5vh;
+    padding-bottom: 1vh;
+    color: #40c1ed;
+}
+
+.header-bottom-lower {
+    font-size: 1vw;
+    letter-spacing: 0.5vh;
+    padding-top: 1vh;
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    padding: 10vh 15vh 0 15vh ;
+    background-color: #f1f1f1;
+}
+
+.steps-heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 1.5vw;
+    width: 30%;
+    padding-right: 5vw;
+}
+
+.steps-cotainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-steps {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 10%; 
+}
+
+.right-steps {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 10%;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    padding-bottom: 10vh;
+}
+
+.step-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.step-img > img {
+    width: fit-content;
+}
+
+.step-text {
+    font-size: 1.3vw;
+    padding-left: 2vw;
+}
+
+.membership {
+    display: flex;
+    flex-direction: row;
+    padding: 12vh ;
+}
+
+.membership > div {
+    width: 50%
+}
+
+.membership-left-heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 1.5vw;
+    padding-right: 20vw;
+}
+
+.membership-left-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1vw;
+    color: #666666;
+    padding-right: 8vw;
+}
+
+.membership-right > img{
+    width: 100%;  
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+}
+
+.service > div {
+    width: 50%
+}
+
+.service-left {
+    padding-top: 2%;
+}
+
+.service-left > img {
+    width: 100%;  
+}
+
+.service-right {
+    padding-left: 7% ;
+}
+
+.service-right-heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 1.5vw;
+    padding-right: 20vw;
+}
+
+.service-right-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1vw;
+    color: #666666;
+    padding-right: 8vw;
+}
+
+.service-right-lower-heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 1.5vw;
+}
+
+.service-right-lower-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1vw;
+    color: #666666;
+    padding-right: 8vw;
+}
+
+.line {
+    color: lightgrey;
+    border: 1px solid #e4e4e4;
+    margin-top: 5vh;
+    margin-right: 5vw;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    padding: 12vh ;
+}
+
+.option-left {
+    width: 35%;
+}
+
+.option-left-heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 1.5vw;
+    padding-right: 10vw;
+}
+
+.option-left-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1vw;
+    color: #666666;
+    padding-right: 8vw;
+}
+
+.option-right > img{
+    width: 100%;  
+}
+
+.start {
+    background-color: #40c1ed;
+    display: flex;
+    flex-direction: row;
+}
+
+.start > div {
+    width: 50%;
+}
+
+.start-heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 1.5vw;
+    padding-left: 6vw;
+    padding-right: 10vw;
+}
+
+.start-button > button {
+    background-color: black;
+    color: white;
+    border: black solid;
+    margin-top: 9%;
+    height: 35%;
+    width: 60%;
+}
+
+.lower-part {
+    padding: 5vh 7vw 7vh 7vw;
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+}
+
+.tag  > div{
+    width: 25%;
+}
+
+.tag > div > a {
+    text-decoration: none !important;
+    color: inherit;
+    font-size: 1vw;
+}
+
+.end-line {
+    color: lightgrey;
+    border: 1px solid #e4e4e4;
+    margin-top: 5vh;
+}
+
+.end > h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.message {
+    font-size: 1.1vw;
+}
